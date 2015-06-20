@@ -3,7 +3,7 @@
 	<name>hypeWall-iZAP Videos</name>
 	<id>hypeWall_izap_videos</id>
 	<author>iionly</author>
-	<version>1.9.0</version>
+	<version>1.9.1</version>
 	<category>content</category>
 	<category>multimedia</category>
 	<description>Adds a menu item to the hypeWall menu that directs a user to the 'Add new video' page of the iZAP Videos plugin.</description>
