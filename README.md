@@ -1,8 +1,8 @@
 hypeWall-iZAP Videos and Tidypics plugin for Elgg 1.9 - 1.12 and 2.X
 ====================================================================
 
-Latest Version: 1.9.2  
-Released: 2015-10-25  
+Latest Version: 1.9.3  
+Released: 2017-02-20  
 Contact: iionly@gmx.de  
 License: GNU General Public License version 2  
 Copyright: (C) iionly 2014
@@ -19,7 +19,7 @@ In the same way as it's done here for the menu items for iZAP Videos and Tidypic
 Requires
 --------
 
-Tested on 2015-10-25 (I've only tested functionality added by the hypeWall-iZAP Videos and Tidypics plugin, i.e. hypeWall menu items/icons showing up correctly. On newer versions the menu icons added by hypeWall itself didn't show up either).
+Tested on 2017-02-20 (I've only tested functionality added by the hypeWall-iZAP Videos and Tidypics plugin, i.e. hypeWall menu items/icons showing up correctly, not fully tested hypeWall/hypeApps)
 
 - For Elgg 1.9:
 	* hypeWall plugin version 3.2.3 (this is the most recent version of HypeWall working for me on Elgg 1.9; available at https://github.com/hypeJunction/hypeWall/releases/tag/3.2.3).
@@ -28,8 +28,8 @@ Tested on 2015-10-25 (I've only tested functionality added by the hypeWall-iZAP 
 	* hypeWall plugin version 3.2.3 (this is the most recent version of HypeWall working for me on Elgg 1.10 - 1.12; available at https://github.com/hypeJunction/hypeWall/releases/tag/3.2.3).
 	* hypeFilestore version 3.1.1 required by the hypeWall plugion (this is the most recent version of hypeFilestore working for me on Elgg 1.10 - 1.12; available at https://github.com/hypeJunction/hypeFilestore/releases/tag/3.1.1),
 - For Elgg 2.0:
-	* hypeWall plugin version 4.3.2 (this is the most recent version of HypeWall working for me on Elgg 2.0; available at https://github.com/hypeJunction/hypeWall/releases/tag/4.3.2).
-	* hypeApps version 4.3.3 required by the hypeWall plugion (this is the most recent version of hypeApps working for me on Elgg 2.0; available at https://github.com/hypeJunction/hypeApps/releases/tag/4.3.3),
+	* hypeWall plugin version 4.4.11 (this is the most recent version of HypeWall working for me on Elgg 2.0; available at https://github.com/hypeJunction/hypeWall/releases/tag/4.4.11).
+	* hypeApps version 5.1.1 required by the hypeWall plugion (this is the most recent version of hypeApps working for me on Elgg 2.0; available at https://github.com/hypeJunction/hypeApps/releases/tag/5.1.1).
 
 
 Suggests

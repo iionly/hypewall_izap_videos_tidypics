@@ -23,7 +23,7 @@ function hypewall_izap_videos_tidypics() {
 			'name' => 'hypewall_tidypics',
 			'text' => '<i class="wall-icon wall-icon-tidypics"></i>',
 			'title' => elgg_echo('wall:tidypics_images'),
-			'href' => "ajax/view/photos/selectalbum/?owner_guid=" . elgg_get_logged_in_user_guid,
+			'href' => "ajax/view/photos/selectalbum/?owner_guid=" . elgg_get_logged_in_user_guid(),
 			'link_class' => 'elgg-lightbox',
 			'priority' => 501,
 		));
