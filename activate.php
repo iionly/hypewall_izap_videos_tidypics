@@ -4,7 +4,7 @@
 // handle the change of plugin name / id
 
 $current_version = elgg_get_plugin_setting('version', 'hypewall_izap_videos_tidypics');
-$new_version = '1.9.3';
+$new_version = '2.3.3';
 
 if (!$current_version) {
 

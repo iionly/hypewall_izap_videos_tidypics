@@ -1,9 +1,11 @@
 Changelog
 =========
 
-1.9.3
+2.3.3
 -----
 
+- Requires Elgg 2.3.0 at minimum,
+- No longer load Elgg's lighbox JS and CSS because they are loaded by core on all pages now anyway,
 - Added missing brackets in elgg_get_logged_in_user_guid() function call.
 
 1.9.2

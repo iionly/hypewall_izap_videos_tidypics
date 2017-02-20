@@ -1,7 +1,7 @@
-hypeWall-iZAP Videos and Tidypics plugin for Elgg 1.9 - 1.12 and 2.X
-====================================================================
+hypeWall-iZAP Videos and Tidypics plugin for Elgg 2.3 and newer Elgg and 2.X
+============================================================================
 
-Latest Version: 1.9.3  
+Latest Version: 2.3.3  
 Released: 2017-02-20  
 Contact: iionly@gmx.de  
 License: GNU General Public License version 2  

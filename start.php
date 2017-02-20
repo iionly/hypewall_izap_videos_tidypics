@@ -17,8 +17,6 @@ function hypewall_izap_videos_tidypics() {
 	}
 
 	if (elgg_is_active_plugin('tidypics')) {
-		elgg_load_js('tidypics');
-		elgg_load_js('lightbox');
 		elgg_register_menu_item('wall-filter', array(
 			'name' => 'hypewall_tidypics',
 			'text' => '<i class="wall-icon wall-icon-tidypics"></i>',
