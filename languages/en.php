@@ -1,6 +1,6 @@
 <?php
 
-return array(
+return [
 	'wall:video' => 'Add new video',
-	'wall:tidypics_images' => 'Add new photos'
-);
+	'wall:tidypics_images' => 'Add new photos',
+];

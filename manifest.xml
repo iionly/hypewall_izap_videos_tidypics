@@ -3,7 +3,7 @@
 	<name>hypeWall-iZAP Videos and Tidypics</name>
 	<id>hypewall_izap_videos_tidypics</id>
 	<author>iionly</author>
-	<version>2.3.3</version>
+	<version>2.3.4</version>
 	<category>content</category>
 	<category>multimedia</category>
 	<description>Adds menu items to the hypeWall menu for quickly adding videos with the iZAP Videos plugin and photos with the Tidypics plugin.</description>
@@ -17,6 +17,7 @@
 	<requires>
 		<type>plugin</type>
 		<name>hypeWall</name>
+		<version>5.2.0</version>
 	</requires>
 	<suggests>
 		<type>plugin</type>
