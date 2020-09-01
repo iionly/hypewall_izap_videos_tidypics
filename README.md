@@ -1,8 +1,8 @@
-hypeWall-iZAP Videos and Tidypics plugin for Elgg 2.3 and newer Elgg and 2.X
+hypeWall-iZAP Videos and Tidypics plugin for Elgg 3.0 and newer Elgg and 3.X
 ============================================================================
 
-Latest Version: 2.3.4  
-Released: 2018-06-03  
+Latest Version: 3.0.0  
+Released: 2020-08-29  
 Contact: iionly@gmx.de  
 License: GNU General Public License version 2  
 Copyright: (C) iionly 2014
@@ -11,28 +11,18 @@ Copyright: (C) iionly 2014
 Description
 -----------
 
-This plugin adds menu items to the hypeWall menu that directs a user to the 'Add new video' page of the iZAP Videos plugin (tested only with my revised version of iZAP Videos!) and to the 'Add photos' page of Tidypics respectively. Of course, you would have either iZAP Videos or Tidypics or both plugins installed for the menu items to appear.
+On previous versions of this plugin (for Elgg 1.x and 2.x) there were links added to the hypeWall input form on the activity page to get quickly to the upload pages for photos (Tidypics) and videos (izap Videos). hypeWall for Elgg 3 in version 6.2.0 already offers quicklinks to the add pages of registered content types (of the bundled plugins and 3rd party plugins). These quicklinks work fine for creating videos (izap Videos) and would also work for creating photo albums (Tidypics). But the quicklink for adding photos to Tidypics albums is broken because Tidypics needs some additional info for the uploading of photos to work, i.e. which album the photos should be added to.
 
-In the same way as it's done here for the menu items for iZAP Videos and Tidypics other new menu items could get added to the hypeWall menu, too, using this plugin as starting point.
+The hypeWall-iZAP Videos and Tidypics plugin for Elgg 3 no longer adds a links to the hypeWall input form to be forwarded to the izapVideos add video page but relies on the quicklink already added by the hypeWall itself.
+
+For Tidypics the quicklinks added by hypeWall for adding albums and photos are removed though. Instead of these quicklinks there's a new one added that opens the "Upload photos" popup dialog already available in Tidypics to allow for selection of any existing album the new photos should be added to or forwards to the add new album page.
 
 
 Requires
 --------
 
-Last tested on 2018-06-03 (I've only tested functionality added by the hypeWall-iZAP Videos and Tidypics plugin, i.e. hypeWall menu items/icons showing up correctly, not fully tested hypeWall/hypeApps)
-
-- For Elgg 1.9:
-	* hypeWall plugin version 3.2.3 (this is the most recent version of HypeWall working for me on Elgg 1.9; available at https://github.com/hypeJunction/hypeWall/releases/tag/3.2.3).
-	* hypeFilestore version 3.0.0 required by the hypeWall plugion (this is the most recent version of hypeFilestore working for me on Elgg 1.9; available at https://github.com/hypeJunction/hypeFilestore/releases/tag/3.0.0),
-- For Elgg 1.10 - 1.12:
-	* hypeWall plugin version 3.2.3 (this is the most recent version of HypeWall working for me on Elgg 1.10 - 1.12; available at https://github.com/hypeJunction/hypeWall/releases/tag/3.2.3).
-	* hypeFilestore version 3.1.1 required by the hypeWall plugion (this is the most recent version of hypeFilestore working for me on Elgg 1.10 - 1.12; available at https://github.com/hypeJunction/hypeFilestore/releases/tag/3.1.1),
-- For Elgg 2.0:
-	* hypeWall plugin version 4.4.11 (this is the most recent version of HypeWall working for me on Elgg 2.0; available at https://github.com/hypeJunction/hypeWall/releases/tag/4.4.11).
-	* hypeApps version 5.1.1 required by the hypeWall plugion (this is the most recent version of hypeApps working for me on Elgg 2.0; available at https://github.com/hypeJunction/hypeApps/releases/tag/5.1.1).
-- For Elgg 2.3:
-	* hypeWall plugin version 5.2.0 (this is the most recent version of HypeWall available at 2018-06-03; available at https://github.com/hypeJunction/hypeWall/releases/tag/5.2.0).
-	* hypeApps version 5.1.1 required by the hypeWall plugion (this is the most recent version of hypeApps working for me on Elgg 2.0; available at https://github.com/hypeJunction/hypeApps/releases/tag/5.1.1).
+- Elgg 3.0 or newer,
+- hypeWall 6.2.0 (https://github.com/hypeJunction/Elgg3-hypeWall/releases/tag/6.2.0).
 
 
 Suggests

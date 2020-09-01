@@ -3,21 +3,21 @@
 	<name>hypeWall-iZAP Videos and Tidypics</name>
 	<id>hypewall_izap_videos_tidypics</id>
 	<author>iionly</author>
-	<version>2.3.4</version>
+	<version>3.0.0</version>
 	<category>content</category>
 	<category>multimedia</category>
-	<description>Adds menu items to the hypeWall menu for quickly adding videos with the iZAP Videos plugin and photos with the Tidypics plugin.</description>
+	<description>Fixes quck link entry of hypeWall to select photo album to upload photos to (links for creating Tidypics albums and adding videos to iZAP Videos already built-in in hypeWall now).</description>
 	<website>https://github.com/iionly</website>
 	<copyright>(c) iionly 2014</copyright>
 	<license>GNU Public License version 2</license>
 	<requires>
 		<type>elgg_release</type>
-		<version>2.3.0</version>
+		<version>3.0.0</version>
 	</requires>
 	<requires>
 		<type>plugin</type>
 		<name>hypeWall</name>
-		<version>5.2.0</version>
+		<version>6.2.0</version>
 	</requires>
 	<suggests>
 		<type>plugin</type>

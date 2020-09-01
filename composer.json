@@ -1,6 +1,6 @@
 {
     "name": "iionly/hypewall_izap_videos_tidypics",
-    "description": "Adds menu items to the hypeWall menu for quickly adding videos with the iZAP Videos plugin and photos with the Tidypics plugin.",
+    "description": "Fixes quck link entry of hypeWall to select photo album to upload photos to (links for creating Tidypics albums and adding videos to iZAP Videos already built-in in hypeWall now).",
     "type": "elgg-plugin",
     "keywords": [
         "elgg",

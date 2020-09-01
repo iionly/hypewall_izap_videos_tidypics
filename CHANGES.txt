@@ -1,6 +1,13 @@
 Changelog
 =========
 
+3.0.0
+-----
+
+- Updated for Elgg 3 and hypeWall release 6.2.0 (so you need both for this version),
+- Quicklink of the hypeWall plugin for adding videos to iZAP Videos is kept unchanged (no longer necessary to add an entry to the hypeWall input form to add videos),
+- Instead of the quicklinks of the hypeWall plugin for Tidypics to add albums (working) and photos (not working) a new quicklink is added to open the "Upload photos" popup of Tidpyics to select the album the photos should be uploaded to or to select the option to add a new photo album.
+
 2.3.4
 -----
 
